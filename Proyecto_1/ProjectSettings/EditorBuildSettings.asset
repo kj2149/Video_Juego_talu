@@ -5,7 +5,37 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/0.Inicio.unity
+    guid: 42c36c698cc78e94b895c389d1caea0c
+  - enabled: 1
+    path: Assets/Scenes/1.Principal.unity
+    guid: 9b276a923ccd33348849bbefc62f116f
+  - enabled: 1
+    path: Assets/Scenes/2.Opciones.unity
+    guid: 360c144cb534108418be12e6d7b982ff
+  - enabled: 1
+    path: Assets/Scenes/3.Ayuda.unity
+    guid: 5b4f35bb2b0708e4c84ac1e38e4d54b2
+  - enabled: 1
+    path: Assets/Scenes/4.Desarrollador.unity
+    guid: dae4648875594b04b8425dae4f05c0b4
+  - enabled: 1
+    path: Assets/Scenes/5.Juego_nivel_1.unity
+    guid: 48650c9e1c04652479ad07ae42cc6bf3
+  - enabled: 1
+    path: Assets/Scenes/6.Juego_nivel_2.unity
+    guid: 19cf33477b671a64a9964ba314ec34b0
+  - enabled: 1
+    path: Assets/Scenes/7.Juego_nivel_3.unity
+    guid: 874c0a7976fe5dd41ba3da995e7e9727
+  - enabled: 1
+    path: Assets/Scenes/8.Niveles.unity
+    guid: 268a507494e4be645b7f04563820426a
+  - enabled: 1
+    path: Assets/Scenes/9.reanudar_juego.unity
+    guid: c88c063f8aab2e546ab6d45da8114972
   m_configObjects: {}
