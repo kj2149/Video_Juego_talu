@@ -15,7 +15,7 @@ C:/Users/camil/OneDrive/Desktop/Video_Juego_talu/Video_Juego_talu/Proyecto_1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63055
+65168
 Successfully changed project path to: C:/Users/camil/OneDrive/Desktop/Video_Juego_talu/Video_Juego_talu/Proyecto_1
 C:/Users/camil/OneDrive/Desktop/Video_Juego_talu/Video_Juego_talu/Proyecto_1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/camil/OneDrive/Desktop/Video_Juego_talu/Video_Juego_talu/Proyecto_1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11016] Host "[IP] 192.168.20.73 [Port] 0 [Flags] 2 [Guid] 2775139421 [EditorId] 2775139421 [Version] 1048832 [Id] WindowsEditor(7,8-Man) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [648] Host "[IP] 192.168.20.73 [Port] 0 [Flags] 2 [Guid] 2143295437 [EditorId] 2143295437 [Version] 1048832 [Id] WindowsEditor(7,8-Man) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11016] Host "[IP] 192.168.20.73 [Port] 0 [Flags] 2 [Guid] 2775139421 [EditorId] 2775139421 [Version] 1048832 [Id] WindowsEditor(7,8-Man) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [648] Host "[IP] 192.168.20.73 [Port] 0 [Flags] 2 [Guid] 2143295437 [EditorId] 2143295437 [Version] 1048832 [Id] WindowsEditor(7,8-Man) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 107.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 107.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.27f1 (ca3ffb99bcc6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/Resources/UnitySubsystems
@@ -67,301 +67,82 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006059 seconds.
+Registered in 0.005440 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 487 ms
+Android Extension - Scanning For ADB Devices 379 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 85.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.194 seconds
+- Completed reload, in  1.159 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1195ms)
+	ReloadAssembly (1160ms)
 		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (998ms)
+		EndReloadAssembly (961ms)
 			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (123ms)
+			SetupTypeCache (132ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (799ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (745ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (573ms)
+				InitializePlatformSupportModulesInManaged (489ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (88ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004917 seconds.
+Registered in 0.005482 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026B33C4C2E0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000015533257010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34A19A60 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001552F64D2E0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34AAD020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-000001552F64D2E0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B356BF820 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000015534997830 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B35AC4030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001552F76F010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B35AC4030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000015533363EB0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B35AC4030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000015534A01010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B35AC4030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001552F79FC30 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B30176890 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-0000015534A5FE20 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B356D6A30 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000155332B1450 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B356D6A30 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-00000155332B1450 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B305EE010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-00000155346BA470 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B35841E20 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000015534A75630 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3572C430 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001552F288F80 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B356D6A30 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-00000155333794C0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3572C430 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.060 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1060ms)
-		BeginReloadAssembly (152ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (794ms)
-			LoadAssemblies (115ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (258ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (353ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (216ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.86 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (119.8 KB). Loaded Objects now: 3597.
-Memory consumption went from 118.0 MB to 117.9 MB.
-Total: 3.192300 ms (FindLiveObjects: 0.281400 ms CreateObjectMapping: 0.236300 ms MarkObjects: 2.576000 ms  DeleteObjects: 0.097400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 390394.998767 seconds.
-  path: Assets/Scenes/0.Inicio.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/0.Inicio.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09091a45ecfa8a485a8cb2b4e587814d') in 0.016211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 173.242336 seconds.
-  path: Assets/Imagenes/Bruja.png
-  artifactKey: Guid(9b3739ba7c9175343b3cab4d9f1e990c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/Bruja.png using Guid(9b3739ba7c9175343b3cab4d9f1e990c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023863684fc886d72c8372bf7d7a2b70') in 0.389794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Imagenes/cora.png
-  artifactKey: Guid(fd1e9921bf349304e81c785bef7737f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/cora.png using Guid(fd1e9921bf349304e81c785bef7737f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754574460d6c4521781e80f9253563ff') in 0.210807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Imagenes/ñero_nv2_tip1-removebg-preview.png
-  artifactKey: Guid(14f549dd367ed4944bdd6dbe6e756997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/ñero_nv2_tip1-removebg-preview.png using Guid(14f549dd367ed4944bdd6dbe6e756997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12b68e2d057f09f7804ac7aac6526c2') in 0.051154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Imagenes/Trasmi.png
-  artifactKey: Guid(6d48a7938e7e4db4480e497c488c0bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/Trasmi.png using Guid(6d48a7938e7e4db4480e497c488c0bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209bfba127475138bcd085658afd2bd8') in 0.042633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Imagenes/play-symbol-vector-icon-removebg-preview.png
-  artifactKey: Guid(1200774a6e02e05459c25b51d89cdc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/play-symbol-vector-icon-removebg-preview.png using Guid(1200774a6e02e05459c25b51d89cdc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7374a4737ea053ad5ebafe702fa6af87') in 0.166127 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003965 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B33F2D9B0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34732A40 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B345C7220 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B36CE1040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B38D9D020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B36CE1040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B35330080 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3910D670 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B36CCC630 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B36CCC630 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B374E0030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3930A840 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B38971D70 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34732A40 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B36C7B030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.092 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1092ms)
-		BeginReloadAssembly (193ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (789ms)
-			LoadAssemblies (123ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (241ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (391ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (283ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3629.
-Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 4.971200 ms (FindLiveObjects: 0.558800 ms CreateObjectMapping: 0.577800 ms MarkObjects: 3.773900 ms  DeleteObjects: 0.058800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007028 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B33F2D9B0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B38FB4040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37116030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B346EC030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B38D9D020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33E3FE90 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33F52790 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39BE4230 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37116030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37116030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B375CA020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39BE4230 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34850020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37603B70 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B304AE640 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000015534877010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -371,310 +152,43 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.644 seconds
+- Completed reload, in  1.973 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1645ms)
-		BeginReloadAssembly (238ms)
+	ReloadAssembly (1975ms)
+		BeginReloadAssembly (255ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (1249ms)
-			LoadAssemblies (165ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1516ms)
+			LoadAssemblies (213ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (425ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (520ms)
+			SetupTypeCache (460ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (129ms)
+			SetupLoadedEditorAssemblies (669ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (46ms)
+				InitializePlatformSupportModulesInManaged (42ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (318ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3644.
-Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 5.737000 ms (FindLiveObjects: 0.440100 ms CreateObjectMapping: 0.542400 ms MarkObjects: 4.698500 ms  DeleteObjects: 0.054500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004423 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B3983A010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B38FB4040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39928020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B35D35010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34542020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B399AA010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37178030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37824030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39DA1F40 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39928020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B30596030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37824030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34850020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B38FB4040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B36CD0ED0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.009 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1010ms)
-		BeginReloadAssembly (163ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (733ms)
-			LoadAssemblies (107ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (315ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (188ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3659.
-Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 5.611800 ms (FindLiveObjects: 0.724400 ms CreateObjectMapping: 0.405400 ms MarkObjects: 4.434300 ms  DeleteObjects: 0.045900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004685 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B9FF18020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34AB6970 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39928020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B9FF9C020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B391680A0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B36C7B030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37178030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39BE4230 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39928020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39928020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37033FE0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39BE4230 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34850020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3A3B8C20 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B38B22F20 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.157 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1158ms)
-		BeginReloadAssembly (155ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (890ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (422ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (281ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3674.
-Memory consumption went from 116.2 MB to 116.1 MB.
-Total: 3.180200 ms (FindLiveObjects: 0.332300 ms CreateObjectMapping: 0.314100 ms MarkObjects: 2.494600 ms  DeleteObjects: 0.037900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005290 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B34502BE0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B36DB2700 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39310410 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B370CC020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B9FD1E090 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3A0A2010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34087040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37839B60 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39E5B090 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39310410 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA0158020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37839B60 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39BA41F0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B36DB2700 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B9FCD6050 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.146 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1147ms)
-		BeginReloadAssembly (156ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (887ms)
-			LoadAssemblies (109ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (430ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (307ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (437ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3689.
-Memory consumption went from 116.2 MB to 116.1 MB.
-Total: 4.259900 ms (FindLiveObjects: 0.884400 ms CreateObjectMapping: 0.359000 ms MarkObjects: 2.962700 ms  DeleteObjects: 0.049800 ms)
+Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (119.8 KB). Loaded Objects now: 3597.
+Memory consumption went from 117.9 MB to 117.8 MB.
+Total: 7.155200 ms (FindLiveObjects: 1.644000 ms CreateObjectMapping: 1.058200 ms MarkObjects: 4.348700 ms  DeleteObjects: 0.102700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -689,82 +203,82 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004290 seconds.
+Registered in 0.006531 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026B34502BE0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000015534F2E010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34AB6970 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000015532F18CD0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3938D010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-000001553604B230 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000015533568820 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B35D35010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000155339E9010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B9FD1E090 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000015537ABE010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3A1DE010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000015535F40020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34087040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001553812AF20 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37839B60 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-000001553376F890 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3938D010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001553604B230 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3938D010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-000001553604B230 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA01DC020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-0000015535EDE650 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37839B60 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001553376F890 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39BA41F0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001553347B020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B392E5010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-0000015537FB53B0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B9FCD6050 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-00000155369FA030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.209 seconds
+- Completed reload, in  1.042 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1211ms)
-		BeginReloadAssembly (149ms)
+	ReloadAssembly (1042ms)
+		BeginReloadAssembly (169ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (947ms)
-			LoadAssemblies (111ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (773ms)
+			LoadAssemblies (124ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (470ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (368ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (320ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (40ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3704.
-Memory consumption went from 116.2 MB to 116.1 MB.
-Total: 3.693500 ms (FindLiveObjects: 0.309500 ms CreateObjectMapping: 0.190000 ms MarkObjects: 3.142700 ms  DeleteObjects: 0.049600 ms)
+Unloading 15 unused Assets / (92.6 KB). Loaded Objects now: 3612.
+Memory consumption went from 115.9 MB to 115.8 MB.
+Total: 2.937400 ms (FindLiveObjects: 0.231500 ms CreateObjectMapping: 0.144700 ms MarkObjects: 2.529300 ms  DeleteObjects: 0.031100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -779,982 +293,82 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004188 seconds.
+Registered in 0.006513 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026B3773C070 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000015534F2E010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34848040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001552ECC2170 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39310410 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-000001552ECC2170 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000155397B8030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34A63010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000015535FB4010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B391680A0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000015533363020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37576010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000015534C58040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34087040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001552F6ACBF0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3A4EF030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-0000015534EAA010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39E5B090 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001552ECC2170 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39310410 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-000001552ECC2170 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37043FF0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-00000155389DE010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3A4EF030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000015534EAA010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3870C020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000015538B0D890 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B392E5010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-0000015538A17B60 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B370CC020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000015533739080 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.175 seconds
+- Completed reload, in  1.233 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1176ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (1234ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (926ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (263ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (457ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (330ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.29 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3719.
-Memory consumption went from 116.2 MB to 116.1 MB.
-Total: 5.111800 ms (FindLiveObjects: 0.731000 ms CreateObjectMapping: 0.664900 ms MarkObjects: 3.648700 ms  DeleteObjects: 0.065400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004296 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B3983A010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34848040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39820020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B346EC030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B391680A0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B344AC010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34087040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B36914040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39820020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39820020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3A38E010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B36914040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39BA41F0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B392E5010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B370CC020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.150 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1150ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (900ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (436ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (309ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3734.
-Memory consumption went from 116.2 MB to 116.1 MB.
-Total: 4.533500 ms (FindLiveObjects: 0.679500 ms CreateObjectMapping: 0.243800 ms MarkObjects: 3.549700 ms  DeleteObjects: 0.058100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003727 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B3983A010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B302EC020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B371B51D0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA05AC050 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39BA41F0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37576010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34087040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3710C050 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39E5B090 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B371B51D0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33F52790 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3710C050 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B38B34010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3702C020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B304AE640 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.122 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1122ms)
-		BeginReloadAssembly (167ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (865ms)
-			LoadAssemblies (121ms)
+		EndReloadAssembly (999ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
+			SetupTypeCache (265ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (423ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (499ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (288ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3749.
-Memory consumption went from 116.3 MB to 116.2 MB.
-Total: 3.911600 ms (FindLiveObjects: 0.335200 ms CreateObjectMapping: 0.305800 ms MarkObjects: 3.214000 ms  DeleteObjects: 0.055200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003708 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B3983A010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B392E5010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37119040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA05AC050 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B301A7020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37576010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3A34C020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37292010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B371B51D0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37119040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B35961010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37292010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B38B34010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B302EC020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B9FF18020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.985 seconds
-Domain Reload Profiling:
-	ReloadAssembly (986ms)
-		BeginReloadAssembly (158ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (738ms)
-			LoadAssemblies (119ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (308ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
+				InitializePlatformSupportModulesInManaged (34ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (196ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3764.
-Memory consumption went from 116.3 MB to 116.2 MB.
-Total: 4.738700 ms (FindLiveObjects: 0.728100 ms CreateObjectMapping: 0.274100 ms MarkObjects: 3.680600 ms  DeleteObjects: 0.053500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004528 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B30131050 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B392E5010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA0500020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B346EC030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39BA41F0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37576010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3A34C020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B373A4020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA0500020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA0500020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B38E1B020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B373A4020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B38590080 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39BC2050 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA0610060 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.152 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1154ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (908ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (424ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (291ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3779.
-Memory consumption went from 116.3 MB to 116.2 MB.
-Total: 4.480000 ms (FindLiveObjects: 0.535500 ms CreateObjectMapping: 0.255600 ms MarkObjects: 3.633400 ms  DeleteObjects: 0.052100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003630 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B3983A010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B392E5010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39DC2F50 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B344AC010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B374F0040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37576010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3A34C020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3876C080 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39DC2F50 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39DC2F50 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3A38E010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3876C080 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3A38E010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39BC2050 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA0610060 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.170 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1171ms)
-		BeginReloadAssembly (159ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (897ms)
-			LoadAssemblies (112ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (248ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (450ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (304ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3794.
-Memory consumption went from 116.4 MB to 116.3 MB.
-Total: 5.596400 ms (FindLiveObjects: 0.557900 ms CreateObjectMapping: 0.653300 ms MarkObjects: 4.330700 ms  DeleteObjects: 0.052200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004683 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B30131050 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B392E5010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39BCA050 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B346EC030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33D94010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA08EB020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33F52790 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33C316E0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3463F060 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39BCA050 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA0610060 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33C316E0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34850020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39BC2050 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37178030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.054 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1055ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (804ms)
-			LoadAssemblies (99ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (371ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (247ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3809.
-Memory consumption went from 116.4 MB to 116.3 MB.
-Total: 2.682500 ms (FindLiveObjects: 0.279000 ms CreateObjectMapping: 0.178900 ms MarkObjects: 2.189500 ms  DeleteObjects: 0.034100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003614 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B30131050 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3702C020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39BCA050 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B346EC030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34908470 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA08EB020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33F52790 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34235020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3463F060 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39BCA050 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39B06120 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34235020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34850020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B392E5010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37178030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.107 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1108ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (848ms)
-			LoadAssemblies (103ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (410ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3824.
-Memory consumption went from 116.4 MB to 116.3 MB.
-Total: 6.495100 ms (FindLiveObjects: 0.720800 ms CreateObjectMapping: 0.771700 ms MarkObjects: 4.924400 ms  DeleteObjects: 0.074700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004187 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B30131050 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B392E5010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33F45030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B346EC030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B35971020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA08EB020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33F52790 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34235020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33F45030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33F45030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA0610060 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34235020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B9FCB6030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3702C020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA08EB020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.336 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1336ms)
-		BeginReloadAssembly (149ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1084ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (545ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (362ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3839.
-Memory consumption went from 116.4 MB to 116.3 MB.
-Total: 5.256600 ms (FindLiveObjects: 0.343500 ms CreateObjectMapping: 0.299700 ms MarkObjects: 4.545500 ms  DeleteObjects: 0.066200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005099 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B3773C070 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B392E5010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39B39460 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA1270010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B9FF48040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37576010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33F52790 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39DCA360 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39D28F70 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39B39460 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B38E1B020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39DCA360 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39B06120 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B36DA9010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA1474010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.142 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1143ms)
-		BeginReloadAssembly (156ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (882ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (233ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (453ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (326ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3854.
-Memory consumption went from 116.4 MB to 116.3 MB.
-Total: 4.661100 ms (FindLiveObjects: 0.526400 ms CreateObjectMapping: 0.296200 ms MarkObjects: 3.791800 ms  DeleteObjects: 0.045100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004204 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B3773C070 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B392E5010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39B39460 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA1270010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34908470 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37576010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33F52790 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39DCA360 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39D28F70 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39B39460 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B38E1B020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39DCA360 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39B06120 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B36DA9010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B30224F10 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.129 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1130ms)
-		BeginReloadAssembly (157ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (861ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (230ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (437ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (312ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3869.
-Memory consumption went from 116.4 MB to 116.4 MB.
-Total: 4.492500 ms (FindLiveObjects: 0.656900 ms CreateObjectMapping: 0.255900 ms MarkObjects: 3.515900 ms  DeleteObjects: 0.061700 ms)
+Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3627.
+Memory consumption went from 116.0 MB to 115.9 MB.
+Total: 3.691500 ms (FindLiveObjects: 0.337300 ms CreateObjectMapping: 0.234200 ms MarkObjects: 3.024300 ms  DeleteObjects: 0.094000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1768,500 +382,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003991 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B30131050 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B36DEB040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39DC2F50 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B35D35010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA0D52040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA0CF00A0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33F52790 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3783DB30 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39DC2F50 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39DC2F50 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3A444020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39B2F160 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA14000A0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B392E5010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B30224F10 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.033 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1034ms)
-		BeginReloadAssembly (148ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (786ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (236ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (376ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3884.
-Memory consumption went from 116.5 MB to 116.4 MB.
-Total: 2.836000 ms (FindLiveObjects: 0.379500 ms CreateObjectMapping: 0.195000 ms MarkObjects: 2.208900 ms  DeleteObjects: 0.051600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005254 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B3032D710 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B36DEB040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B9FFD4060 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA0F3A010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B301A7020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37576010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33F52790 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3783DB30 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B9FFD4060 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B9FFD4060 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3A444020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39B2F160 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39B06120 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3702C020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B30224F10 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.138 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1139ms)
-		BeginReloadAssembly (145ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (883ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (246ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (420ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (283ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.6 KB). Loaded Objects now: 3899.
-Memory consumption went from 116.5 MB to 116.4 MB.
-Total: 4.302400 ms (FindLiveObjects: 0.407900 ms CreateObjectMapping: 0.342000 ms MarkObjects: 3.475200 ms  DeleteObjects: 0.075700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003771 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B3983A010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B36DEB040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B35B18030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B35D35010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B301A7020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B37576010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33F52790 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39148090 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B35B18030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B35B18030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B34594010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39148090 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39B06120 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B392E5010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B9FF18020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.164 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1165ms)
-		BeginReloadAssembly (156ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (895ms)
-			LoadAssemblies (104ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (240ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (443ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (316ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3914.
-Memory consumption went from 116.5 MB to 116.4 MB.
-Total: 5.767500 ms (FindLiveObjects: 0.717500 ms CreateObjectMapping: 0.878500 ms MarkObjects: 4.085600 ms  DeleteObjects: 0.084100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004776 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B3983A010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B36DEB040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B389858A0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA0F3A010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39ABCE80 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3A1DE010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33F52790 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B398F0010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B389858A0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B389858A0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA1116020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B398F0010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B30234F20 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3702C020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA15F7040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.139 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1140ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (894ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (417ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (291ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3929.
-Memory consumption went from 116.5 MB to 116.4 MB.
-Total: 5.453000 ms (FindLiveObjects: 0.466700 ms CreateObjectMapping: 0.503100 ms MarkObjects: 4.443300 ms  DeleteObjects: 0.038200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003798 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B3983A010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B36DEB040 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B389858A0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B372C6010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B35D35010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B39ABCE80 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA167B020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B33F52790 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3928B020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B389858A0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B389858A0 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B9FF9C020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B3928B020 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA19B0030 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B392E5010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B35D35010 doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.167 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1168ms)
-		BeginReloadAssembly (157ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (897ms)
-			LoadAssemblies (113ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (282ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (435ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (309ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.6 KB). Loaded Objects now: 3944.
-Memory consumption went from 116.5 MB to 116.4 MB.
-Total: 5.684700 ms (FindLiveObjects: 0.542200 ms CreateObjectMapping: 0.524500 ms MarkObjects: 4.547200 ms  DeleteObjects: 0.068900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3944.
-Memory consumption went from 53.5 MB to 53.4 MB.
-Total: 4.788600 ms (FindLiveObjects: 0.436300 ms CreateObjectMapping: 0.263200 ms MarkObjects: 4.029100 ms  DeleteObjects: 0.059100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.6 KB). Loaded Objects now: 3944.
-Memory consumption went from 53.2 MB to 53.1 MB.
-Total: 4.798900 ms (FindLiveObjects: 0.457000 ms CreateObjectMapping: 0.244400 ms MarkObjects: 4.027900 ms  DeleteObjects: 0.068400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (92.6 KB). Loaded Objects now: 3944.
-Memory consumption went from 53.2 MB to 53.1 MB.
-Total: 4.560000 ms (FindLiveObjects: 0.397800 ms CreateObjectMapping: 0.261200 ms MarkObjects: 3.852300 ms  DeleteObjects: 0.047700 ms)
+Unloading 15 unused Assets / (92.7 KB). Loaded Objects now: 3627.
+Memory consumption went from 52.9 MB to 52.8 MB.
+Total: 3.543000 ms (FindLiveObjects: 0.264000 ms CreateObjectMapping: 0.178700 ms MarkObjects: 3.060200 ms  DeleteObjects: 0.038900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
