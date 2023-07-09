@@ -67,13 +67,13 @@ public class PlayerController : MonoBehaviour
     public void Vida(int vidaRecibe)
     {
         vidaActual+=vidaRecibe;
-        textoVidaPlayer.text= ""+ vidaActual.ToString(); 
+        textoVidaPlayer.text= "+"+ vidaActual.ToString(); 
         Debug.Log("Cambio de vida: " +vidaRecibe );
     }
 
     public void PlayerDead(){
         if(vidaActual<=0){
-            vidaActual= 100;
+            vidaActual= 10;
             transform.position= posicionInicial;
             textoVidaPlayer.text= ""+ vidaActual.ToString();  
             
