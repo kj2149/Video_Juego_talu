@@ -17,7 +17,7 @@ public class VidaPersonaje : MonoBehaviour
 
         if(gameObject.CompareTag("BajarVida") && other.CompareTag("Player")){
             other.GetComponent<PlayerController>().Vida(-vida);            
-            Destroy(gameObject);
+           // Destroy(gameObject);
         }
     }
 

@@ -67,7 +67,7 @@ public class PlayerController : MonoBehaviour
     public void Vida(int vidaRecibe)
     {
         vidaActual+=vidaRecibe;
-        textoVidaPlayer.text= "Vida:"+ vidaActual.ToString(); 
+        textoVidaPlayer.text= ""+ vidaActual.ToString(); 
         Debug.Log("Cambio de vida: " +vidaRecibe );
     }
 
@@ -75,7 +75,7 @@ public class PlayerController : MonoBehaviour
         if(vidaActual<=0){
             vidaActual= 100;
             transform.position= posicionInicial;
-            textoVidaPlayer.text= "Vida:"+ vidaActual.ToString();  
+            textoVidaPlayer.text= ""+ vidaActual.ToString();  
             
         }
         

@@ -2233,8 +2233,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 427.4, y: 175.87}
-  m_SizeDelta: {x: 25.598, y: 22.269}
+  m_AnchoredPosition: {x: 401.4, y: 160.7}
+  m_SizeDelta: {x: 59.61, y: 47.43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &219823831
 MonoBehaviour:
@@ -3148,15 +3148,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7ca265f77fe82dd46bc9de60f2df1801, type: 2}
+  m_sharedMaterial: {fileID: 5481083404013277062, guid: 7ca265f77fe82dd46bc9de60f2df1801, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3173,8 +3173,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3209,7 +3209,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 8.94137, y: 0, z: -34.718426, w: 7.2503347}
+  m_margin: {x: 8.94137, y: 4.0383244, z: -47.76531, w: 7.2503347}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3402,6 +3402,7 @@ GameObject:
   - component: {fileID: 335003307}
   - component: {fileID: 335003309}
   - component: {fileID: 335003308}
+  - component: {fileID: 335003310}
   m_Layer: 6
   m_Name: trasmi
   m_TagString: Untagged
@@ -3502,6 +3503,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!252 &335003310
+SurfaceEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335003306}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Speed: 5
+  m_SpeedVariation: 0
+  m_ForceScale: 0.1
+  m_UseContactForce: 0
+  m_UseFriction: 1
+  m_UseBounce: 1
 --- !u!1 &338891112
 GameObject:
   m_ObjectHideFlags: 0
@@ -3593,6 +3612,7 @@ GameObject:
   - component: {fileID: 354542529}
   - component: {fileID: 354542530}
   - component: {fileID: 354542531}
+  - component: {fileID: 354542532}
   m_Layer: 6
   m_Name: trasmi
   m_TagString: Untagged
@@ -3693,6 +3713,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.6977873, y: 0.8635486}
   m_EdgeRadius: 0
+--- !u!252 &354542532
+SurfaceEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354542528}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Speed: 5
+  m_SpeedVariation: 0
+  m_ForceScale: 0.1
+  m_UseContactForce: 0
+  m_UseFriction: 1
+  m_UseBounce: 1
 --- !u!1 &359186977
 GameObject:
   m_ObjectHideFlags: 0
@@ -16270,7 +16308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaTotal: 100
-  vidaActual: 100
+  vidaActual: 0
   textoVidaPlayer: {fileID: 294680387}
   posicionInicial: {x: 0, y: 0, z: 0}
   fuerzaHorizontal: 8
@@ -16279,7 +16317,7 @@ MonoBehaviour:
   piso:
     serializedVersion: 2
     m_Bits: 64
-  tocandoPiso: 1
+  tocandoPiso: 0
 --- !u!1 &1571741894
 GameObject:
   m_ObjectHideFlags: 0
@@ -20353,6 +20391,7 @@ GameObject:
   - component: {fileID: 1941233720}
   - component: {fileID: 1941233721}
   - component: {fileID: 1941233722}
+  - component: {fileID: 1941233723}
   m_Layer: 6
   m_Name: trasmi
   m_TagString: Untagged
@@ -20453,6 +20492,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.6538377, y: 0.8417339}
   m_EdgeRadius: 0
+--- !u!252 &1941233723
+SurfaceEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941233719}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Speed: 5
+  m_SpeedVariation: 0
+  m_ForceScale: 0.1
+  m_UseContactForce: 0
+  m_UseFriction: 1
+  m_UseBounce: 1
 --- !u!1 &1947167281
 GameObject:
   m_ObjectHideFlags: 0
