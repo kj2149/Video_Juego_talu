@@ -18,6 +18,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TMP_SubMeshUI
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -30,6 +31,10 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
   serializedClasses:
@@ -70,6 +75,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
@@ -474,11 +481,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16086}
     - Class: 114
+      Script: {instanceID: 16218}
+    - Class: 114
       Script: {instanceID: 17088}
     - Class: 114
       Script: {instanceID: 17282}
     - Class: 114
       Script: {instanceID: 17566}
+    - Class: 114
+      Script: {instanceID: 18324}
+    - Class: 114
+      Script: {instanceID: 18716}
     - Class: 114
       Script: {instanceID: 19502}
     - Class: 114
@@ -489,7 +502,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 20318}
     - Class: 114
       Script: {instanceID: 20516}
+    - Class: 114
+      Script: {instanceID: 20524}
+    - Class: 114
+      Script: {instanceID: 21544}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -869,7 +888,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21214}
     - Class: 114
-      Script: {instanceID: 38914}
+      Script: {instanceID: 32062}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128

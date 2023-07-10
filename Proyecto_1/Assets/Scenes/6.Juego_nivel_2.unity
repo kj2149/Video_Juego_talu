@@ -3681,7 +3681,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 973535332}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 82.2, y: 7.8, z: -2.1}
+  m_LocalPosition: {x: -42, y: 6.66, z: -2.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5044,7 +5044,7 @@ GameObject:
   - component: {fileID: 1237743225}
   m_Layer: 0
   m_Name: "\xF1ero_nv2_tip1-removebg-preview"
-  m_TagString: Untagged
+  m_TagString: BajarVida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5093,7 +5093,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.085790455, y: 0.0715445}
@@ -5149,7 +5149,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 14f549dd367ed4944bdd6dbe6e756997, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -5546,7 +5546,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.08439903}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5557,7 +5557,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.97, y: 0.56}
+  m_Size: {x: 0.97, y: 0.391202}
   m_EdgeRadius: 0
 --- !u!1 &1379588537
 GameObject:
@@ -6660,7 +6660,7 @@ MonoBehaviour:
   vidaTotal: 100
   vidaActual: 0
   textoVidaPlayer: {fileID: 1162821977}
-  posicionInicial: {x: 0, y: 0, z: 0}
+  posicionInicial: {x: -42, y: 6.66, z: 0}
   fuerzaHorizontal: 8
   fuerzaVertical: 14
   altruaRayo: 2
@@ -6775,7 +6775,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1519682278}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 82.2, y: 7.8, z: 7.9}
+  m_LocalPosition: {x: -42, y: 6.66, z: 7.9}
   m_LocalScale: {x: 0.41989017, y: 0.3842922, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7722,7 +7722,7 @@ GameObject:
   - component: {fileID: 1905634605}
   m_Layer: 0
   m_Name: "\xF1ero_nv2_tip1-removebg-preview (1)"
-  m_TagString: Untagged
+  m_TagString: BajarVida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7771,7 +7771,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.085790455, y: 0.0715445}
@@ -7827,7 +7827,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 14f549dd367ed4944bdd6dbe6e756997, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -8320,7 +8320,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117904757}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 82.2, y: 7.8, z: -2.1}
+  m_LocalPosition: {x: -42, y: 6.66, z: -2.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
