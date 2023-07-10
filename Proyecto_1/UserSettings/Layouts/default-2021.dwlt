@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 76
+  controlID: 62
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 30
+  controlID: 63
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 21
+  controlID: 64
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -316,23 +316,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Imagenes
     m_Globs: []
     m_OriginalText: 
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Imagenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\camil\OneDrive\Desktop\Video_Juego_talu\Video_Juego_talu\Proyecto_1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f05c0000
-    m_LastClickedID: 23792
-    m_ExpandedIDs: 00000000e45c000000ca9a3bffffff7f
+    m_SelectedIDs: 44590000
+    m_LastClickedID: 22852
+    m_ExpandedIDs: 000000003a59000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e45c0000
+    m_ExpandedIDs: 000000003a590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -492,7 +492,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 36f7ffff7cf7ffffeaf8fffffcf8ffff06f9ffff10f9ffff2af9ffff5ef9ffff6cf9ffff80f9ffff92f9ffffa0f9ffff3efaffff18fbffff
+      m_ExpandedIDs: 6cefffffb6efffffc0efffffceefffffd4efffffdaefffffe0efffffeaeffffff4efffff00f0ffff0ef0ffff18f0ffff8cf1ffffdaf1ffffe4f1fffff2f1fffff8f1fffffef1ffff04f2ffff0ef2ffff18f2ffff24f2ffff32f2ffff3cf2ffff4cf3ffff9af3ffff04f5ffff12f5ffff18f5ffff1ef5ffff34f5ffff44f5ffff4ef5ffff5ef5ffff6cf5ffff76f5ffff18fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -777,7 +777,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -42.85768, y: 12.451342, z: 643.6837}
     speed: 2
-    m_Value: {x: -40.61862, y: 11.465018, z: 671.6492}
+    m_Value: {x: -42.85768, y: 12.451342, z: 643.6837}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -830,7 +830,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 23.972513
     speed: 2
-    m_Value: 25.102108
+    m_Value: 23.972513
   m_Ortho:
     m_Target: 1
     speed: 2
