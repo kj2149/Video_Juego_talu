@@ -345,6 +345,7 @@
 "Assets/code/ControlGeneral.cs"
 "Assets/code/ControlSonido.cs"
 "Assets/code/MetaScena.cs"
+"Assets/code/movimientoEementos.cs"
 "Assets/code/PlayerController.cs"
 "Assets/code/VidaPersonaje.cs"
 -langversion:9.0

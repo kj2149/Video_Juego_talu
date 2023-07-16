@@ -15926,6 +15926,7 @@ GameObject:
   - component: {fileID: 1536825378}
   - component: {fileID: 1536825377}
   - component: {fileID: 1536825381}
+  - component: {fileID: 1536825382}
   m_Layer: 0
   m_Name: "\xF1ero (9)"
   m_TagString: BajarVida
@@ -16060,6 +16061,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 5
+--- !u!114 &1536825382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536825375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 980762eb96568774a923a8077c166e0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectoReferencia: {fileID: 0}
+  coordenadasInicial: {x: 0, y: 0, z: 0}
+  coordenadasFinal: {x: 0, y: 0, z: 0}
+  velocidadMovimeinto: 0
+  enemigoInerte: 0
+  estaEnCoordenadaInicial: 0
+  estaEnCoordenadaFinal: 0
 --- !u!1 &1547094206
 GameObject:
   m_ObjectHideFlags: 0
