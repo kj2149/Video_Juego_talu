@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/6.Juego_nivel_2.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
