@@ -402,6 +402,7 @@ GameObject:
   - component: {fileID: 1002263954}
   - component: {fileID: 1002263953}
   - component: {fileID: 1002263952}
+  - component: {fileID: 1002263955}
   m_Layer: 5
   m_Name: MENU
   m_TagString: Untagged
@@ -474,7 +475,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 705030381}
+      - m_Target: {fileID: 1002263955}
         m_TargetAssemblyTypeName: ControlGeneral, Assembly-CSharp
         m_MethodName: CambioEscena
         m_Mode: 3
@@ -524,6 +525,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002263950}
   m_CullTransparentMesh: 1
+--- !u!114 &1002263955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002263950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39e61c3f489b0e74ca53e84aae1b093a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1175458572
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,8 +572,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: 303}
-  m_SizeDelta: {x: 398.5738, y: 50.9236}
+  m_AnchoredPosition: {x: -0.0000038146973, y: 333.21}
+  m_SizeDelta: {x: 510.32, y: 304.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1175458574
 MonoBehaviour:
@@ -609,8 +622,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 90
+  m_fontSizeBase: 90
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -955,8 +968,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796549372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.17, y: -0.19, z: -1.14}
-  m_LocalScale: {x: 2.6367984, y: 2.30452, z: 1}
+  m_LocalPosition: {x: 0.08, y: -1.18, z: -1.14}
+  m_LocalScale: {x: 2.299288, y: 1.7949907, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
